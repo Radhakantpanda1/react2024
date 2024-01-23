@@ -5,3 +5,12 @@ let root=ReactDOM.createRoot(document.getElementById('root'));
 root.render(heading);
 const headingUsingJSX=<h1 id="heading" className="rooot">react learner ceated using JSX</h1>
 root.render(headingUsingJSX);
+let Titlee=()=> <h2>TITLE COMPONENT</h2>
+
+let Headingcomponents=() =>{
+    return (<div>
+        <Titlee />
+        <h1>FUNCTIONAL COMPONENTS</h1>
+        </div>)
+}
+root.render(<Headingcomponents/>)
